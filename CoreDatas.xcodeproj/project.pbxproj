@@ -14,6 +14,10 @@
 		5290266D2C9985F00027DDD6 /* CoreDatas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5290266B2C9985F00027DDD6 /* CoreDatas.xcdatamodeld */; };
 		5290266F2C9985F20027DDD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5290266E2C9985F20027DDD6 /* Assets.xcassets */; };
 		529026722C9985F20027DDD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529026702C9985F20027DDD6 /* LaunchScreen.storyboard */; };
+		5290267B2C9988880027DDD6 /* ToDoListitem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529026792C9988880027DDD6 /* ToDoListitem+CoreDataClass.swift */; };
+		5290267C2C9988880027DDD6 /* ToDoListitem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290267A2C9988880027DDD6 /* ToDoListitem+CoreDataProperties.swift */; };
+		529026822C99B32A0027DDD6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529026802C99B32A0027DDD6 /* TableViewCell.swift */; };
+		529026832C99B32A0027DDD6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529026812C99B32A0027DDD6 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		5290266E2C9985F20027DDD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529026712C9985F20027DDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529026732C9985F20027DDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529026792C9988880027DDD6 /* ToDoListitem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListitem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5290267A2C9988880027DDD6 /* ToDoListitem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListitem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		529026802C99B32A0027DDD6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		529026812C99B32A0027DDD6 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		529026562C9985F00027DDD6 = {
 			isa = PBXGroup;
 			children = (
+				529026792C9988880027DDD6 /* ToDoListitem+CoreDataClass.swift */,
+				5290267A2C9988880027DDD6 /* ToDoListitem+CoreDataProperties.swift */,
 				529026612C9985F00027DDD6 /* CoreDatas */,
 				529026602C9985F00027DDD6 /* Products */,
 			);
@@ -66,6 +76,8 @@
 				529026702C9985F20027DDD6 /* LaunchScreen.storyboard */,
 				529026732C9985F20027DDD6 /* Info.plist */,
 				5290266B2C9985F00027DDD6 /* CoreDatas.xcdatamodeld */,
+				529026802C99B32A0027DDD6 /* TableViewCell.swift */,
+				529026812C99B32A0027DDD6 /* TableViewCell.xib */,
 			);
 			path = CoreDatas;
 			sourceTree = "<group>";
@@ -129,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529026722C9985F20027DDD6 /* LaunchScreen.storyboard in Resources */,
+				529026832C99B32A0027DDD6 /* TableViewCell.xib in Resources */,
 				5290266F2C9985F20027DDD6 /* Assets.xcassets in Resources */,
 				5290266A2C9985F00027DDD6 /* Main.storyboard in Resources */,
 			);
@@ -142,8 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5290266D2C9985F00027DDD6 /* CoreDatas.xcdatamodeld in Sources */,
+				5290267B2C9988880027DDD6 /* ToDoListitem+CoreDataClass.swift in Sources */,
+				5290267C2C9988880027DDD6 /* ToDoListitem+CoreDataProperties.swift in Sources */,
 				529026672C9985F00027DDD6 /* ViewController.swift in Sources */,
 				529026632C9985F00027DDD6 /* AppDelegate.swift in Sources */,
+				529026822C99B32A0027DDD6 /* TableViewCell.swift in Sources */,
 				529026652C9985F00027DDD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
